@@ -1,6 +1,16 @@
 {
     "default_route_id_enabled": true,
-    "use_route_short_name_for_route_id": true,
+    "use_route_short_name_for_route_id": false,
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "N3R",
+            "route_id": 14031800
+        },
+        {
+            "route_short_name": "ExTr",
+            "route_id": 524201800
+        }
+    ],
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
